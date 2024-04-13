@@ -1,0 +1,37 @@
+import { FaStar } from "react-icons/fa6";
+
+export default function Testimonials() {
+  return (
+    <main className="w-full h-screen md:h-[500px] mt-20">
+      <div className="flex flex-col items-center">
+        <h1 className="flex text-4xl mb-8">
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+          <FaStar />
+        </h1>
+        <h1 className="font-bold max-w-[800px] text-center text-2xl my-4">
+          I have been using the MMA products from this website for a while now
+          and I am extremely satisfied with their quality. The customer service
+          is also top-notch.
+        </h1>
+        <div className="flex gap-4 items-center mt-6">
+          <img
+            src="data:image/jpeg;base64,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"
+            className="w-20 h-20 rounded-full object-cover"
+          />
+          <div className="flex flex-col gap-1">
+            <p className="font-bold">John Doe</p>
+            <p className="font-semibold">CEO, ABC Company</p>
+          </div>
+          <div className="bg-black h-16 w-0.5"></div>
+          <img
+            src="https://logowik.com/content/uploads/images/webflow-new2506.logowik.com.webp"
+            className="w-32 h-28 object-cover"
+          />
+        </div>
+      </div>
+    </main>
+  );
+}
